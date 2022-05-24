@@ -91,7 +91,7 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 ```
-   Selanjutnya kita perlu mengisi paramater apa saja yang memengaruhi model yang akan kita buat
+      Selanjutnya kita perlu mengisi paramater apa saja yang memengaruhi model yang akan kita buat
 ```
 p = 7500 #Panjang Grid
 T = 2000 #Waktu Simulasi 
