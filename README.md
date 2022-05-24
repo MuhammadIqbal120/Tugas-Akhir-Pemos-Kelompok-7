@@ -133,6 +133,17 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
 # 3. Installasi Miniconda 3
+![IMG_20220525_055428](https://user-images.githubusercontent.com/106125001/170150076-7f2dd8ab-ac57-4700-b47c-0835470d0bbf.jpg)
+![IMG_20220525_055456](https://user-images.githubusercontent.com/106125001/170150084-3b978e63-5d19-4bdb-8b77-48b271e26154.jpg)
+![IMG_20220525_055523](https://user-images.githubusercontent.com/106125001/170150093-1ec9ce0b-c3f4-47b7-88ef-f0a0f7f9ef00.jpg)
+![IMG_20220525_055558](https://user-images.githubusercontent.com/106125001/170150098-b39ae6b9-d7bc-46af-afd1-d8cedeb8a22c.jpg)
+![IMG_20220525_055630](https://user-images.githubusercontent.com/106125001/170150102-ee3ecf94-6ac5-417a-908f-4b92af0e4985.jpg)
+![IMG_20220525_055651](https://user-images.githubusercontent.com/106125001/170150105-1912f442-0410-4a22-bfa2-cd0e21739d9f.jpg)
+![IMG_20220525_055848](https://user-images.githubusercontent.com/106125001/170150108-9029fac4-39ff-4803-a605-ac721aeefa44.jpg)
+![IMG_20220525_055925](https://user-images.githubusercontent.com/106125001/170150110-0bc402c2-6b92-4367-befc-09d627131c8c.jpg)
+![IMG_20220525_055947](https://user-images.githubusercontent.com/106125001/170150115-b12c50da-3cc1-4877-a55e-72acfef1f46d.jpg)
+![IMG_20220525_060019](https://user-images.githubusercontent.com/106125001/170150119-80305c0e-25bc-45f8-a846-94fd9c384975.jpg)
+![Untitled](https://user-images.githubusercontent.com/106125001/170150120-04ec7008-fad1-4890-a898-c1b96b519bcc.png)
 
 
 # 4. Metode Pengerjaan
