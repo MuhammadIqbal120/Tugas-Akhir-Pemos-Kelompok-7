@@ -235,6 +235,7 @@ fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
 ax2b = ax2.twinx()
 ```
 selanjutnya kita dapat memberikan label keterangan pada plot grafik yaang akan menjadi output dari pemodelan ini, berikut script untuk ploting labelnya.
+```
 # Pressure
 ax1.plot(df['time'], df['pressure'], color='black')
 ax1.set_ylabel('pressure [hPa]')
@@ -252,8 +253,11 @@ ax2b.set_ylabel('Wind Direction')
 # Water temperature
 ax3.plot(df['time'], df['water_temperature'], color='tab:red')
 ax3.set_ylabel('water Temperature [degC]')
+```
 kemudian langkah terakhir yaitu kita perlu memberikan perintah untuk kemudian menampilkan hasil plotting grafik tersebut
+```
 plt.show()
+```
 Kemduian setelah itu kita tinggal melakukan running dari script pemodelan tersebut. Simpan hasil grafik yang telah berhasil didapatkan.
 Buka Website NDBC-NOAA
 website buka
