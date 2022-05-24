@@ -47,6 +47,8 @@ dimana u adalah kecepatan sesaat (m/dt), elevasi (m), H adalah kedalaman terukur
 
 Sistem persamaan diatas dapat diubah menjadi persamaan transpor Ut (m2/dt), dimana:
 
+<img width="84" alt="u" src="https://user-images.githubusercontent.com/106155232/170068935-cab8f784-6d67-482c-8f0a-b8c8512b6371.png">
+
 Persamaan pengatur berdasarkan hukum momentum menjadi
 
 Persamaan pengatur berdasarkan hukum kontinuitas menjadi
