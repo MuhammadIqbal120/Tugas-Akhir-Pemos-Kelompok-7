@@ -33,6 +33,11 @@ Model matematika dapat digunakan dalam persoalan-persoalan polusi lingkungan sep
 
 **2.2.2 Persamaan-persamaan Model Hidrodinamika 1 Dimensi**
 
+Persamaan pengatur fluida dapat disajikan sebagai berikut:
+Persamaan pengarur berdasarkan hukum momentum
+Persamaan pengatur berdasarkan hukum kontinuitas
+        dimana u adalah kecepatan sesaat (m/dt), elevasi (m), H adalah kedalaman terukur (m) konstan terhadap ruang, dan g adalah koefisien gravitasi bumi (m/dt^2)
+
 **2.2.3 Contoh Hasil Pemodelan Oseanografi**
 
 **Hasil Output Pemodelan 🖥️**
