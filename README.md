@@ -91,7 +91,7 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 ```
-      Selanjutnya kita perlu mengisi paramater apa saja yang memengaruhi model yang akan kita buat
+Selanjutnya kita perlu mengisi paramater apa saja yang memengaruhi model yang akan kita buat
 ```
 p = 7500 #Panjang Grid
 T = 2000 #Waktu Simulasi 
@@ -191,13 +191,18 @@ plt.show()
 ```
 Selanjutnya kita hanya perlu melakukan running dari script tersebut, kemudian simpan hasil grafik yang berhasil didapatkan.
 
-4. Modul 4 : Model Hidrodinamika 2D
+3. Modul 4 : Model Hidrodinamika 2D
 
 **📌 4.1. Adveksi Difusi 2D**
 
 **📌 4.2. Model Hidrodinamika 1D**
 
 **📌 4.3. Model Hidrodinamika 2D**
+
+   Langkah pertama yang perlu dilakukan apabila belum terdapat library matplotlib dan Siphon kita perlu menginstal library tersebut dengan menggunakan anaconda prompt. Code dibawah merupakan code untuk mengistall library siphon, kemudian jika dituliskan pada anaconda prompt lalu tekan enter dan tunggu hingga berhasil
+```
+(base) C:\Users\ACER>pip install siphon
+```
 
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
 
