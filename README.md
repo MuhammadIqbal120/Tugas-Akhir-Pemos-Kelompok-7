@@ -85,13 +85,13 @@ import sys
 ```
 
 2. Modul 3 : Model Hidrodinamika 1D
-
-Sama seperti modul sebelumnya, pada modul 3 ini kita menggunakan dua library utama juga, matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
+        
+      Sama seperti modul sebelumnya, pada modul 3 ini kita menggunakan dua library utama juga, matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
 ```
 import matplotlib.pyplot as plt
 import numpy as np
 ```
-Selanjutnya kita perlu mengisi paramater apa saja yang memengaruhi model yang akan kita buat
+   Selanjutnya kita perlu mengisi paramater apa saja yang memengaruhi model yang akan kita buat
 ```
 p = 7500 #Panjang Grid
 T = 2000 #Waktu Simulasi 
