@@ -43,7 +43,13 @@ Persamaan pengatur berdasarkan hukum kontinuitas
 
 <img width="111" alt="kontinuitas" src="https://user-images.githubusercontent.com/106155232/170068001-ee372456-5a72-415a-85c5-75c43faac470.png">
 
-dimana u adalah kecepatan sesaat (m/dt), elevasi (m), H adalah kedalaman terukur (m) konstan terhadap ruang, dan g adalah koefisien gravitasi bumi (m/dt^2)
+dimana u adalah kecepatan sesaat (m/dt), elevasi (m), H adalah kedalaman terukur (m) konstan terhadap ruang, dan g adalah koefisien gravitasi bumi (m/dt2)
+
+Sistem persamaan diatas dapat diubah menjadi persamaan transpor Ut (m2/dt), dimana:
+
+Persamaan pengatur berdasarkan hukum momentum menjadi
+
+Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 
 **2.2.3 Contoh Hasil Pemodelan Oseanografi**
 
