@@ -63,13 +63,13 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 
 **a).Grafik 1**
 
+![Grafik 1](https://user-images.githubusercontent.com/106155232/170077407-cd13a690-a7c5-4fe2-8059-6499f9c162e0.png)
+
 **b).Grafik 2**
 
 **c).Grafik 3**
 
 **d).Grafik 4**
-
-**e.) Grafik 5**
 
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
