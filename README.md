@@ -261,9 +261,11 @@ plt.show()
 Kemduian setelah itu kita tinggal melakukan running dari script pemodelan tersebut. Simpan hasil grafik yang telah berhasil didapatkan.
 Buka Website NDBC-NOAA
 website buka
+![image](https://user-images.githubusercontent.com/106149671/170101109-99aaa6d9-cdc7-419b-b884-06d15690b4aa.png)
 
 Kemudian bisa kita cari id stasiun yang kita gunakan pada script tadi melalui kolom pencarian
-Screenshot 2022-05-23 212335
+![image](https://user-images.githubusercontent.com/106149671/170101278-f6af5c41-fb56-4fc8-846b-f9009547fa1f.png)
+
 
 kemudian kita dapat melakukan analisis terhadap keadaan buoy terkait dengan lokasi dan sebagainnya dari website tersebut.
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
