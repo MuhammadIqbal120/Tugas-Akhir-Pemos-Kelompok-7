@@ -332,12 +332,68 @@ kemudian kita dapat melakukan analisis terhadap keadaan buoy terkait dengan loka
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
 
 **📌 5.1. Adveksi Difusi 1 Dimensi**
+Penerapan dalam Oseanografi : 
+1. 
+2.
+3.
+
+Kelebihan : 
+1.
+2. 
+3. 
+
+Kekurangan : 
+1. 
+2. 
+3. 
 
 **📌 5.2. Adveksi Difusi 2 Dimensi**
+Penerapan dalam Oseanografi : 
+1. 
+2.
+3.
+
+Kelebihan : 
+1.
+2. 
+3. 
+
+Kekurangan : 
+1. 
+2. 
+3. 
 
 **📌 5.3. Model Hidrodinamika 1 Dimensi**
+Penerapan dalam Oseanografi : 
+1. 
+2.
+3.
+
+Kelebihan : 
+1.
+2. 
+3. 
+
+Kekurangan : 
+1. 
+2. 
+3. 
 
 **📌 5.4. Model Hidrodinamika 2 Dimensi**
+Penerapan dalam Oseanografi : 
+1. 
+2.
+3.
+
+Kelebihan : 
+1.
+2. 
+3. 
+
+Kekurangan : 
+1. 
+2. 
+3. 
 
 # 6. Penutup
 **📌 6.1. Kesimpulan**
