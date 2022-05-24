@@ -133,6 +133,19 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
 # 3. Installasi Miniconda 3
+**3.1 Pendahuluan Miniconda**
+MINICONDA adalah _installer_ versi minimal dari conda yang tersedia secara gratis. MINICONDA ini adalah versi _bootstrap_ dari Anaconda yang hanya menyediakan conda, Python, paket-paket python, dan paket penting yang biasanya banyak digunakan lainya termasuk pip, dan zlib. Gunakan perintah _conda  install  command_  untuk menginstal lebih dari 720 paket dari repositori Anaconda
+
+**3.2 Download dan Instal Miniconda** 
+1. Buka browser pada laptop (Chrome, Firefox, Safar, dll), kemudian masukan link berikut (https://docs.conda.io/en/latest/miniconda.html) pada bagian pencarian, maka akan muncul halaman seperti pada berikut ini
+2. Setelah selesai download installer MINICONDA, klik installer tersebut hingga muncul windows persetujuan, maka klik Run. Setelah itu akan muncul windows seperti di bawah ini, maka klik Next. 
+3. Klik Agree ketika muncul laman berikut.
+4. Klik Next pada pilihan tersebut
+5. Klik Install pada pilihan berikut. Sehingga akan memulai instalasi pada laptop
+6. Instalasi sedang berjalan, tunggu hingga selesai, Setelah terdapat notifikasi Completed, maka klik Next
+7. Instalasi selesai, uncheck pada kedua opsi jika tidak ingin mendapatkan tips and resources dari tim Anaconda, kemudian klik Finish, maka instalasi sudah selesai.
+8. Tampilan dari MINICONDA adalah seperti tampilan pada cmd (Command Prompt) yang  terdapat  pada  windows. Instal sebuah package Python pada Anaconda Prompt, pastikan internet  aman.  Ketik  “conda   install   matplotlib”  pada  Anaconda  Prompt,  kemudian  klik Enter.  
+9. Maka akan muncul tampilah seperti ini, artinya sedang menginstal package. Ketika muncul halaman gambar ke 2, ketik “y” tanpa petik, kemudian enter
 
 
 # 4. Metode Pengerjaan
