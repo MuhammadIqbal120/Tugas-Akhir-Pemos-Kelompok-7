@@ -133,30 +133,6 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
 # 3. Installasi Miniconda 3
-**3.1 Pendahuluan Miniconda**
-MINICONDA adalah _installer_ versi minimal dari conda yang tersedia secara gratis. MINICONDA ini adalah versi _bootstrap_ dari Anaconda yang hanya menyediakan conda, Python, paket-paket python, dan paket penting yang biasanya banyak digunakan lainya termasuk pip, dan zlib. Gunakan perintah _conda  install  command_  untuk menginstal lebih dari 720 paket dari repositori Anaconda.
-
-**3.2 Download dan Install Miniconda**
-1. Buka browser pada laptop (Chrome, Firefox, Safar, dll), kemudian masukan link berikut  (https://docs.conda.io/en/latest/miniconda.html) pada bagian pencarian, maka akan muncul halaman seperti pada berikut ini
-![IMG_20220525_055428](https://user-images.githubusercontent.com/106125001/170150076-7f2dd8ab-ac57-4700-b47c-0835470d0bbf.jpg)
-2. Setelah selesai download installer MINICONDA, klik installer tersebut hingga muncul windows persetujuan, maka klik Run. Setelah itu akan muncul windows seperti di bawah ini, maka klik Next.
-![IMG_20220525_055456](https://user-images.githubusercontent.com/106125001/170150084-3b978e63-5d19-4bdb-8b77-48b271e26154.jpg)
-3. Klik Agree ketika muncul laman berikut.
-![IMG_20220525_055523](https://user-images.githubusercontent.com/106125001/170150093-1ec9ce0b-c3f4-47b7-88ef-f0a0f7f9ef00.jpg)
-4. Klik Next pada pilihan tersebut
-![IMG_20220525_055558](https://user-images.githubusercontent.com/106125001/170150098-b39ae6b9-d7bc-46af-afd1-d8cedeb8a22c.jpg)
-5. Klik Install pada pilihan berikut. Sehingga akan memulai instalasi pada laptop
-![IMG_20220525_055630](https://user-images.githubusercontent.com/106125001/170150102-ee3ecf94-6ac5-417a-908f-4b92af0e4985.jpg)
-6. Instalasi sedang berjalan, tunggu hingga selesai, Setelah terdapat notifikasi Completed, maka klik Next
-![IMG_20220525_055651](https://user-images.githubusercontent.com/106125001/170150105-1912f442-0410-4a22-bfa2-cd0e21739d9f.jpg)
-7. Instalasi selesai, uncheck pada kedua opsi jika tidak ingin mendapatkan tips and resources dari tim Anaconda, kemudian klik Finish, maka instalasi sudah selesai.
-![IMG_20220525_055848](https://user-images.githubusercontent.com/106125001/170150108-9029fac4-39ff-4803-a605-ac721aeefa44.jpg)
-8. Tampilan dari MINICONDA adalah seperti tampilan pada cmd (Command Prompt) yang  terdapat  pada  windows. Instal sebuah package Python pada Anaconda Prompt, pastikan internet  aman.  Ketik  “conda   install   matplotlib”  pada  Anaconda  Prompt,  kemudian  klik Enter.  
-![IMG_20220525_055925](https://user-images.githubusercontent.com/106125001/170150110-0bc402c2-6b92-4367-befc-09d627131c8c.jpg)
-9. Maka akan muncul tampilah seperti ini, artinya sedang menginstal package. Ketika muncul halaman gambar ke 2, ketik “y” tanpa petik, kemudian enter
-![IMG_20220525_055947](https://user-images.githubusercontent.com/106125001/170150115-b12c50da-3cc1-4877-a55e-72acfef1f46d.jpg)
-![IMG_20220525_060019](https://user-images.githubusercontent.com/106125001/170150119-80305c0e-25bc-45f8-a846-94fd9c384975.jpg)
-![Untitled](https://user-images.githubusercontent.com/106125001/170150120-04ec7008-fad1-4890-a898-c1b96b519bcc.png)
 
 
 # 4. Metode Pengerjaan
@@ -220,6 +196,58 @@ if cfl >= q:
     print('CFL Violated, please use dt :'+str(round(dt_count,4)))
     sys.exit
 #%%
+```
+Selanjutanya proses untuk membuat Grid
+```
+#pembuatan grid 
+x_grid = np.linspace(0-dx, x+dx, Nx+2) #ghostnode boundary
+y_grid = np.linspace(0-dx, y+dy, Ny+2) #ghostnode boundary
+t = np.linspace(0, Tend, Nt+1)
+x_mesh, y_mesh = np.meshgrid(x_grid,y_grid)
+F = np.zeros((Nt+1, Ny+2, Nx+2))
+```
+Lalu dilakukan pembuatan Iterasi
+```
+#kondisi awal
+F[0,py1,px1] = Ic
+#%%
+
+#Iterasi
+for n in range (0,Nt):
+    for i in range (1,Ny+1):
+        for j in range (1,Nx+1):
+          F[n+1,i,j]=((F[n,i,j]*(1-abs(lx)-abs(ly))) + \
+                (0.5*(F[n,i-1,j]*(ly+abs(ly)))) + \
+                (0.5*(F[n,i+1,j]*(abs(ly)-ly))) + \
+                (0.5*(F[n,i,j-1]*(lx+abs(lx)))) + \
+                (0.5*(F[n,i,j+1]*(abs(lx)-lx))) + \
+                (ay*(F[n,i+1,j]-2*(F[n,i,j])+F[n,i-1,j])) +\
+                (ax*(F[n,i,j+1]-2*(F[n,i,j])+F[n,i,j-1])))
+    #syarat batas
+    F[n+1,0,:] = 0 #bc bawah
+    F[n+1,:,0] = 0 #bc kiri
+    F[n+1,Ny+1,:] = 0 #bc atas
+    F[n+1,:,Nx+1] = 0 #bc kanan
+#%%
+```
+lalu terakhir membuat script untuk Output gambar, lalu lakukan running dari script tersebut
+```
+#output gambar
+    plt.clf()
+    plt.pcolor(x_mesh, y_mesh, F[n+1,:,:],cmap = 'jet',shading = 'auto', edgecolors = 'k')
+    cbar = plt.colorbar(orientation = 'vertical',shrink = 0.95, extend ='both')
+    cbar.set_label(label='concentration', size = 8)
+    #plt clim (0,100)
+    plt.title('Harizal Fikra_26050120130091 \n t='+str(round(dt*(n+1),3))+', initial condition='+str(Ic),fontsize=10)
+    plt.xlabel('x_grid',fontsize=9)
+    plt.ylabel('y_grid',fontsize=9)
+    plt.axis([0, x, 0, y])
+    #pltpause(0.01)
+    plt.savefig(str(n+1)+'.jpg', dpi = 300)
+    plt.pause(0.01)
+    plt.close()
+    print('running timestep ke:' +str(n+1) + 'dari:' +str(Nt) + '('+ percentage(n+1, Nt)+')')
+    print('nilai CFL:' +str(cfl) + 'dengan arah: ' +str(theta))
 ```
 
 2. Modul 3 : Model Hidrodinamika 1D
