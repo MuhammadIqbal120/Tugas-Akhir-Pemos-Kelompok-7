@@ -2,8 +2,13 @@
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat teori, metode, dan file aplikasi yang dapat memproses beberapa persamaan adveksi difusi dan model hidrodinamika untuk penyelesaian dalam pemodelan dari suatu fenomena atau dinamika oseanografi.
 
 # 1. AUTHORS of TEAM 3
-1. Muhammad Iqbal 26050120120022 A
-
+1. Muhammad Iqbal_26050120120022 A
+2. Faiz Zaidan Amin_26050120140209 B
+3. MHD Rayhan Azra_26050120140106 A
+4. Harizal Fikra_26050120130091 A
+5. Bisma Dwiki Akbar_26050120140075 B
+6. Nabila Ismi Oktaviani_26050120140051 B
+7. Rivani Aida Putri_26050120140113 B
 
 # 2. Teori Dasar
 📌 **2.1. Adveksi Difusi**
@@ -28,7 +33,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 
 **2.2.3 Contoh Hasil Pemodelan Oseanografi**
 
-**Hasil Output Pemoodelan 🖥️**
+**Hasil Output Pemodelan 🖥️**
 
 **a).Grafik 1**
 
