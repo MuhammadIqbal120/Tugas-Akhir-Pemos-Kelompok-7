@@ -216,18 +216,24 @@ the basic meteorological data from a buoy and make a simple plot.
 """
 ```
 Seperti yang telah disinggung di pendahuluan bahwassannya kita perlu menggunakan library berupa matplotlib dan siphon. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan siphon berfungsi untuk mengunduh data dari layanan data jarak jauh dalam hal ini yaitu data dari NDBC. jadi langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
+```
 import matplotlib.pyplot as plt
 
 from siphon.simplewebservice.ndbc import NDBC
+```
 Selanjutnya kita perlu mengisikan atau mengkoneksikan data buoy yang kita gunakan berdasarkan pada id stasiun yang diinginkan, berikut script untuk mengkoneksikan data pada id stasiun NDBC yang ingin digunakan.
+```
 # Get a pandas data frrame of all of the observations, meteorological data os the default
 # observation set query.
 df = NDBC.realtime_observations('51003') #Stasiun ID
 df.head()
+```
 Selanjutnya langkah dalam penulisan script ini kita perlu melakukan ploting untuk kemudian dapat ditampilkan dalam bentuk grafik. dalam hal ini kita juga dapat menentukan size yang akan digunakan dan jumlah grafik yang akan kita buat. Disini kita menggunakan 3 grafik diman ax1 merupakan #pressure, ax2 merupakan Wind Speed, gust, direction, dan ax3 merupakan #water temperature
+```
 # Let's make a simple time series plot to ceckout what the data look like.
 fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
 ax2b = ax2.twinx()
+```
 selanjutnya kita dapat memberikan label keterangan pada plot grafik yaang akan menjadi output dari pemodelan ini, berikut script untuk ploting labelnya.
 # Pressure
 ax1.plot(df['time'], df['pressure'], color='black')
