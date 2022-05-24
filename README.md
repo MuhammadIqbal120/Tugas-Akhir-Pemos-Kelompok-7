@@ -35,11 +35,15 @@ Model matematika dapat digunakan dalam persoalan-persoalan polusi lingkungan sep
 
 Persamaan pengatur fluida dapat disajikan sebagai berikut:
 
-Persamaan pengarur berdasarkan hukum momentum
+Persamaan pengatur berdasarkan hukum momentum
+
 <img width="109" alt="momentum" src="https://user-images.githubusercontent.com/106155232/170067525-f940348b-2f73-4d6e-b3b3-67e098f8ce69.png">
 
 Persamaan pengatur berdasarkan hukum kontinuitas
-        dimana u adalah kecepatan sesaat (m/dt), elevasi (m), H adalah kedalaman terukur (m) konstan terhadap ruang, dan g adalah koefisien gravitasi bumi (m/dt^2)
+
+<img width="111" alt="kontinuitas" src="https://user-images.githubusercontent.com/106155232/170068001-ee372456-5a72-415a-85c5-75c43faac470.png">
+
+dimana u adalah kecepatan sesaat (m/dt), elevasi (m), H adalah kedalaman terukur (m) konstan terhadap ruang, dan g adalah koefisien gravitasi bumi (m/dt^2)
 
 **2.2.3 Contoh Hasil Pemodelan Oseanografi**
 
