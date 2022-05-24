@@ -109,3 +109,10 @@ import sys
 **📌 6.2. Saran**
 
 **📌 6.3. Ucapan Terima Kasih**
+Demikian tugas akhir praktikum pemodelan oseanografi yang kami buat. Seluruh authors mohon maaf apabila terdapat kesalahan dalam penyampaian materi dalam tugas akhir ini. Seluruh author dari kelompok 7 mengucapkan terimakasih kepada:
+1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu mata kuliah pemodelan oseanografi 
+2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu mata kuliah pemodelan oseanografi 
+3. Dr. Elis Indrayanti, S.T., M.Si. selaku dosen pengampu mata kuliah pemodelan oseanografi 
+4. Rikha Widiaratih, S.Si., M.Si. selaku dosen pengampu mata kuliah pemodelan oseanografi 
+5. Tim asisten Praktikum Pemodelan Oseanografi 2022 yang mendampingi dalam pengerjaan tugas selama praktikum hingga tugas akhir 
+6. seluruh teman teman Oseanografi 2020 yang telah mendukung dalam pengerjaan tugas akhir ini
