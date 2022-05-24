@@ -55,6 +55,8 @@ Persamaan pengatur berdasarkan hukum momentum menjadi
 
 Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 
+<img width="120" alt="transpor kontinuitas" src="https://user-images.githubusercontent.com/106155232/170069378-7a6d4963-92d2-4fb3-b248-aa8341ae5939.png">
+
 **2.2.3 Contoh Hasil Pemodelan Oseanografi**
 
 **Hasil Output Pemodelan 🖥️**
