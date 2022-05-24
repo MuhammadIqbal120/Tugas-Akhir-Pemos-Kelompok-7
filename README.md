@@ -51,6 +51,8 @@ Sistem persamaan diatas dapat diubah menjadi persamaan transpor Ut (m2/dt), dima
 
 Persamaan pengatur berdasarkan hukum momentum menjadi
 
+<img width="118" alt="transpor momentum" src="https://user-images.githubusercontent.com/106155232/170069166-613d9982-e505-4d1d-a688-20cdfa06859f.png">
+
 Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 
 **2.2.3 Contoh Hasil Pemodelan Oseanografi**
