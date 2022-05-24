@@ -1,7 +1,7 @@
 # Tugas-Akhir-Pemos-Kelompok-7
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat teori, metode, dan file aplikasi yang dapat memproses beberapa persamaan adveksi difusi dan model hidrodinamika untuk penyelesaian dalam pemodelan dari suatu fenomena atau dinamika oseanografi.
 
-# 1. AUTHORS of TEAM 3
+# 1. AUTHORS of TEAM 7
 1. Muhammad Iqbal_26050120120022 A
 2. Faiz Zaidan Amin_26050120140209 B
 3. MHD Rayhan Azra_26050120140106 A
@@ -15,15 +15,76 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 
 **Persamaan Adveksi**
 
+Adveksi merupakan proses transportasi berupa aliran rata-rata atau arus, seperti sungai atau gerakan pasang surut yang digerakkan oleh gaya gravitasi atau tekanan dan berupa gerak horizontal.
+Persamaan adveksi adalah salah satu persamaan diferensial parsial yang memodelkan pergerakan suatu konsentrat dalam cairan yang mengalir, dengan asusmsi konsentrat tersebut tidak mengalami proses difusi didalam cairan
+
+Persamaan yang digunakan adalah
+
+<img width="102" alt="image" src="https://user-images.githubusercontent.com/106181201/170124739-4602f60e-77e0-4d3f-bdc8-b489cad8ec25.png">
+
 **FTCS (Forward in Time Central in Space)**
+
+Persamaan beda hingga dengan metode FTCS ini adalah pendekatan beda maju untuk turunan waktu dan beda pusat untuk turunan ruang ( Forward in Time and Central in Space – FTCS). 
+Bila :
+- Indeks n untuk waktu
+- Indeks m untuk ruang
+- u adalah kecepatan aliran yang dianggap konstan terhadap ruang dan waktu
+
+maka persamaannya dideskritisasikan menjadi:
+
+<img width="173" alt="image" src="https://user-images.githubusercontent.com/106181201/170126225-ea835dd4-a5be-4914-aa58-78d9e9a24603.png">
+
+Pada dasarnya metode beda hingga ini tidak stabil secara numerik
 
 **Leapfrog/CTCS (Center Time Center Space)**
 
+Persamaan beda hingga dengan metoda ini adalah pendekatan beda pusat untuk turunan waktu dan beda pusat untuk turunan ruang (Central in Time and Central in Space – CTCS), persamaannya dapat dideskritisasi menjadi:
+
+<img width="165" alt="image" src="https://user-images.githubusercontent.com/106181201/170127147-40b587c3-3542-472d-b8dd-c8bc1659e533.png">
+
+Khusus pada awal langkah (t = 0) deskritisasi persamaan diatas menggunakan beda maju untuk waktu dan beda pusat untuk ruang (metode FTCS) maka pada t = ∆t atau n =1 deskritisasi yang digunakan adalah :
+
+<img width="148" alt="image" src="https://user-images.githubusercontent.com/106181201/170127226-595fddea-9913-418a-b0af-b0312537019a.png">
+
+Dimana F0 diambil dari nilai awal yang diberikan di semua ruang
+
+Kriteria stabilitas untuk menyelesaikan persamaan adveksi dengan menggunakan metode beda hingga eksplisit adalah
+<img width="81" alt="image" src="https://user-images.githubusercontent.com/106181201/170127305-3652309d-9084-4fb3-b09f-c9facd23081a.png">
+
+
 **Upstream (Forward Time, Forward/Back Space)**
+
+Pada metode ini digunakan pendekatan metode beda maju untuk turunan terhadap waktu, sedangkan untuk turunan terhadap ruang dilakukan dengan melihat arah kecepatan u.
+- Jika u > 0, turunan terhadap ruang menggunakan pendekatan beda mundur
+<img width="165" alt="image" src="https://user-images.githubusercontent.com/106181201/170127384-17daa62c-48df-4976-be2e-6cdfac58656e.png">
+
+-Jika u < 0, turunan terhadap ruang menggunakan pendekatan beda maju
+
+<img width="156" alt="image" src="https://user-images.githubusercontent.com/106181201/170127481-fbad8d06-d300-40e2-a48e-0c71e4495c06.png">
+
+Jika kedua persamaan tersebut digabungkan, maka deskritisasi persamaan adveksi dengan metode upstream menjadi :
+<img width="291" alt="image" src="https://user-images.githubusercontent.com/106181201/170127545-703ec4f6-4f35-4b70-8c62-7848b6508e5b.png">
+
+Kriteria stabilitas yang harus dipenuhi :
+<img width="85" alt="image" src="https://user-images.githubusercontent.com/106181201/170127581-3bca39dc-f180-4fb8-9f1b-d88570a4a8fb.png">
 
 **Persamaan Difusi**
 
+Difusi merupakan mekanisme penyebaran konsentrasi akibat adanya kecepatan aliran dan perbedaan konsentrasi.
+
+Persamaan difusi adalah persamaan diferensial parsial yang menggambarkan perpindahan suatu zat dalam pelarut dari bagian berkonsentrasi tinggi ke bagian yang berkonsentrasi rendah
+
+Persamaan yang digunakan adalah
+
+<img width="111" alt="image" src="https://user-images.githubusercontent.com/106181201/170124838-b7b1c224-96db-4625-b75e-129c83df89dc.png">
+
+
 **Persamaan Adveksi-Difusi**
+
+Diskritisasi Persamaan Adveksi-Difusi 2D
+
+<img width="354" alt="image" src="https://user-images.githubusercontent.com/106181201/170129048-c87f3f7a-6caf-476c-b035-128fea5eb8e4.png">
+
 
 **📌 2.2. Model Hidrodinamika**
 
