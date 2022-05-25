@@ -136,6 +136,10 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 
 **d).Grafik 4**
 
+![Screenshot (495)](https://user-images.githubusercontent.com/106155232/170164426-498ecfb4-dab6-4471-b7f2-90216d132ea8.png)
+
+**e).Grafik 5**
+
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
 # 3. Installasi Miniconda 3
