@@ -134,6 +134,7 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 
 # 3. Installasi Miniconda 3
 **3.1 Pendahuluan Miniconda**
+
 MINICONDA adalah _installer_ versi minimal dari conda yang tersedia secara gratis. MINICONDA ini adalah versi _bootstrap_ dari Anaconda yang hanya menyediakan conda, Python, paket-paket python, dan paket penting yang biasanya banyak digunakan lainya termasuk pip, dan zlib. Gunakan perintah _conda  install  command_  untuk menginstal lebih dari 720 paket dari repositori Anaconda.
 
 **3.2 Download dan Install miniconda**
