@@ -457,67 +457,38 @@ kemudian kita dapat melakukan analisis terhadap keadaan buoy terkait dengan loka
 
 **📌 5.1. Adveksi Difusi 1 Dimensi**
 Penerapan dalam Oseanografi : 
-1. 
-2.
-3.
+1. Analisis pemodelan konsentrasi polutan dalam 1 dimensi
+2. analisis intuisi laut dalam waktu dan ruang
+3. Analisis pergerakan limbah dalam fluida secara linear
+4. Pemodelan sebaran nutrien di aliran sungai baik secara kontinu maupun diskontinu
+5. Perhitungan analisis pencemaran dalam aliran fluida 1 dimensi secara stabil 
 
-Kelebihan : 
-1.
-2. 
-3. 
-
-Kekurangan : 
-1. 
-2. 
-3. 
 
 **📌 5.2. Adveksi Difusi 2 Dimensi**
 Penerapan dalam Oseanografi : 
-1. 
-2.
-3.
-
-Kelebihan : 
-1.
-2. 
-3. 
-
-Kekurangan : 
-1. 
-2. 
-3. 
+1. Analisis pemodelan sebaran polutan dalam 2 dimensi 
+2. Pemodelan sebaran klorofil dalam menentukan distribusi nutrien 
+3. Analisis sebaran tumpahan minyak di laut dalam timestep waktu dan ruang
+4. visualisasi dalam pergerakan timestep pencemaran limbah 
+5. Analisis pergerakan transport sedimen yang dipengaruhi oleh energi angin dan arus perairan
 
 **📌 5.3. Model Hidrodinamika 1 Dimensi**
 Penerapan dalam Oseanografi : 
-1. 
-2.
-3.
-
-Kelebihan : 
-1.
-2. 
-3. 
-
-Kekurangan : 
-1. 
-2. 
-3. 
+1. Pemodelan pergerakan massa air secara 1 dimensi
+2. Mensimulasikan elevasi muka air laut yang dipengaruhi beberapa parameter
+3. Pemodelan pergerakan massa air di perairan dangkal dalam syarat batas awal dan akhir
+4. Analisis pergerakan arus terhadap waktu dan ruang secara 1 dimensi 
+5. Pemodelan pergerakan arus maupun gelombang di pesisir
 
 **📌 5.4. Model Hidrodinamika 2 Dimensi**
 Penerapan dalam Oseanografi : 
-1. 
-2.
-3.
-
-Kelebihan : 
-1.
-2. 
-3. 
-
-Kekurangan : 
-1. 
-2. 
-3. 
+1. Pemodelan tumpahan minyak 
+2. Pemodelan pergerakan gelombang akibat perubahan kedalaman
+3. Pemodelan transport sedimen akibat adanya arus sejajar pantai
+4. Pemodelan biota laut
+5. Analisis pergerakan massa air dalam 2 dimensi
+6. Pemodelan faktor angin terhadap perubahan gelombang dalam plotting
+7. Pemodelan sebaran sampah plastik di laut
 
 # 6. Penutup
 **📌 6.1. Kesimpulan**
