@@ -144,6 +144,20 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
+Terdapat beberapa hal yang membedakan model hidrodinamika 1 dimensi dan 2 dimensi, berikut diantaranya
+
+Model Hidrodinamika 1 dimensi
+1. Penampang melintang diambil tegak lurus dengan aliran sungai (x)
+2. Ketinggian air seragam di seluruh penampang
+3. Kecepatan seragam melintasi penampang
+4. Model ini lebih baik untuk gradien yang rendah
+
+Model Hidrodinamika 2 dimensi
+1. Medan direpresentasikan sebagai permukaan kontinu (x,y)
+2. Kedalaman air tidak dianggap seragam
+3. Kecepatan tidak dianggap seragam
+4. Model ini lebih baik untuk gradien yang curam
+
 # 3. Installasi Miniconda 3
 **3.1 Pendahuluan Miniconda**
 
