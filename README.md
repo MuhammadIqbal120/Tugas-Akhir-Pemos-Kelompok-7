@@ -136,9 +136,9 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 
 
 # 4. Metode Pengerjaan
-1. Modul 2 : Adveksi Difusi 2D
+**4.1. Adveksi Difusi 2D**
     
-    Seperti yang telah dijelaskan di pendahuluan, pada modul 2 ini kita perlu menggunakan library berupa matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
+Seperti yang telah dijelaskan di pendahuluan, pada modul 2 ini kita perlu menggunakan library berupa matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -250,9 +250,10 @@ lalu terakhir membuat script untuk Output gambar, lalu lakukan running dari scri
     print('nilai CFL:' +str(cfl) + 'dengan arah: ' +str(theta))
 ```
 
-2. Modul 3 : Model Hidrodinamika 1D
+
+**📌 4.2. Model Hidrodinamika 1D**
         
-      Sama seperti modul sebelumnya, pada modul 3 ini kita menggunakan dua library utama juga, matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
+Sama seperti modul sebelumnya, pada modul 3 ini kita menggunakan dua library utama juga, matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -357,11 +358,6 @@ plt.show()
 ```
 Selanjutnya kita hanya perlu melakukan running dari script tersebut, kemudian simpan hasil grafik yang berhasil didapatkan.
 
-3. Modul 4 : Model Hidrodinamika 2D
-
-**📌 4.1. Adveksi Difusi 2D**
-
-**📌 4.2. Model Hidrodinamika 1D**
 
 **📌 4.3. Model Hidrodinamika 2D**
 
