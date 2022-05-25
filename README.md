@@ -145,6 +145,7 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
 Terdapat beberapa hal yang membedakan model hidrodinamika 1 dimensi dan 2 dimensi, berikut diantaranya
+![IMG_20220515_194411](https://user-images.githubusercontent.com/106125001/170171165-7a72ff44-4c9f-47b9-89a9-f10a59293118.jpg)
 
 Model Hidrodinamika 1 dimensi
 1. Penampang melintang diambil tegak lurus dengan aliran sungai (x)
