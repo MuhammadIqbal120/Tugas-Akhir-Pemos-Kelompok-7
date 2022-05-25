@@ -133,7 +133,29 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
 # 3. Installasi Miniconda 3
+**3.1 Pendahuluan Miniconda**
+MINICONDA adalah _installer_ versi minimal dari conda yang tersedia secara gratis. MINICONDA ini adalah versi _bootstrap_ dari Anaconda yang hanya menyediakan conda, Python, paket-paket python, dan paket penting yang biasanya banyak digunakan lainya termasuk pip, dan zlib. Gunakan perintah _conda  install  command_  untuk menginstal lebih dari 720 paket dari repositori Anaconda.
 
+**3.2 Download dan Install miniconda**
+1. Buka browser pada laptop (Chrome, Firefox, Safar, dll), kemudian masukan link berikut (https://docs.conda.io/en/latest/miniconda.html) pada bagian pencarian, maka akan muncul halaman seperti pada berikut ini
+![Untitled](https://user-images.githubusercontent.com/106125001/170151972-be04adba-0c7f-4493-bb5d-afd92d4cecb8.png)
+2. Setelah selesai download installer MINICONDA, klik installer tersebut hingga muncul windows persetujuan, maka klik Run. Setelah itu akan muncul windows seperti di bawah ini, maka klik Next.
+![IMG_20220525_055428](https://user-images.githubusercontent.com/106125001/170152020-fbab008b-fdb2-45cf-9dc9-283d34f7e0e8.jpg)
+3. Klik Agree ketika muncul laman berikut.
+![IMG_20220525_055456](https://user-images.githubusercontent.com/106125001/170152024-8001d6d0-d97f-4f45-a246-5932079be59c.jpg)
+4. Klik Next pada pilihan tersebut
+![IMG_20220525_055523](https://user-images.githubusercontent.com/106125001/170152029-792142d2-4d4a-4c85-bbe4-2561dafb3121.jpg)
+5. Klik Install pada pilihan berikut. Sehingga akan memulai instalasi pada laptop
+![IMG_20220525_055558](https://user-images.githubusercontent.com/106125001/170152031-43a208c9-e9cb-4ade-9b91-cc9ce68955c9.jpg)
+6. Instalasi sedang berjalan, tunggu hingga selesai, Setelah terdapat notifikasi Completed, maka klik Next
+![IMG_20220525_055630](https://user-images.githubusercontent.com/106125001/170152033-190194c5-931b-44a2-a00c-11a9eb81f3e4.jpg)
+7. Instalasi selesai, uncheck pada kedua opsi jika tidak ingin mendapatkan tips and resources dari tim Anaconda, kemudian klik Finish, maka instalasi sudah selesai.
+![IMG_20220525_055651](https://user-images.githubusercontent.com/106125001/170152036-3fb3d043-ea1e-4082-a084-ab84347d521f.jpg)
+8. Tampilan dari MINICONDA adalah seperti tampilan pada cmd (Command Prompt) yang  terdapat  pada  windows. Instal sebuah package Python pada Anaconda Prompt, pastikan internet  aman.  Ketik  “conda   install   matplotlib”  pada  Anaconda  Prompt,  kemudian  klik Enter.  
+![IMG_20220525_055925](https://user-images.githubusercontent.com/106125001/170152084-0bf27286-3748-4f47-8040-5963a7c5f61e.jpg)
+9. Maka akan muncul tampilah seperti ini, artinya sedang menginstal package. Ketika muncul halaman gambar ke 2, ketik “y” tanpa petik, kemudian enter
+![IMG_20220525_055947](https://user-images.githubusercontent.com/106125001/170152087-fbe7fb0e-7509-4838-9f58-20c9c523f386.jpg)
+![IMG_20220525_060019](https://user-images.githubusercontent.com/106125001/170152090-3040d2da-7ab0-40ad-9001-09aac310eaad.jpg)
 
 # 4. Metode Pengerjaan
 **4.1. Adveksi Difusi 2D**
