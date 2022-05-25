@@ -128,6 +128,8 @@ Persamaan pengatur berdasarkan hukum kontinuitas menjadi
 
 **b).Grafik 2**
 
+![Screenshot (493)](https://user-images.githubusercontent.com/106155232/170164257-d4d99cbc-dca3-4658-8db7-3aeb3ae1ff7e.png)
+
 **c).Grafik 3**
 
 **d).Grafik 4**
