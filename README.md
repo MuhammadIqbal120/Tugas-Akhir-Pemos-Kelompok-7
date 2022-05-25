@@ -493,8 +493,13 @@ Penerapan dalam Oseanografi :
 # 6. Penutup
 **📌 6.1. Kesimpulan**
 
+Dari penjelasan diatas dapat diambil kesimpulan bahwa:
+1. 
 **📌 6.2. Saran**
 
+1. Script yang digunakan dapat dikembangkan lagi agar hasil yang didapatkan lebih baik dan lebih praktis
+2. Dalam mengerjakan tugas dalam praktikum ini, praktikan harus teliti agar hasil yang dihasilkan tepat 
+3. Metode yang digunakan lebih bervariasi lagi
 **📌 6.3. Ucapan Terima Kasih**
 
 Demikian tugas akhir praktikum pemodelan oseanografi yang kami buat. Seluruh authors mohon maaf apabila terdapat kesalahan dalam penyampaian materi dalam tugas akhir ini. Seluruh author dari kelompok 7 mengucapkan terimakasih kepada:
